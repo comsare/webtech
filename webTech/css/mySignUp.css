@@ -1,0 +1,128 @@
+body{
+    background-color: cornflowerblue;
+}
+
+/*Navigation */
+.clear{
+    clear: both;
+}
+#homepage{
+    background-color: #ccc;
+}
+.space{
+    margin-right: 5%;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    overflow: hidden;
+
+}
+ul.nav1 li{
+    /* background-color: white;*/
+    float: left;
+
+}
+
+ul.nav1 li a{
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+ul.nav1 li a:hover{
+    background-color:#ccc;
+}
+ul.nav1 li ul li {
+    float: none;
+}
+ul.nav1 li ul{
+    position: absolute;
+    display: none;
+}
+ul.nav1 li:hover ul{
+    display: block;
+}
+ul.nav1 li ul a{
+    border: none;
+}
+
+/*sign up form*/
+.form-container{
+    background-color: white;
+    width: 60%;
+    margin: 0 20% ;
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    margin-top: 10%;
+}  
+legend{
+    font-weight: 900;
+    font-size: 20px;
+}
+#email{
+    min-width: 200px;
+    min-height: 25px;
+}
+#password{
+    min-width: 200px;
+    min-height: 25px;
+}
+#confirm-password{
+    min-width: 200px;
+    min-height: 25px;
+}
+#tel{
+    min-width: 200px;
+    min-height: 25px;
+}
+#DOB{
+    min-width: 200px;
+    min-height: 25px;
+}
+#surname{
+    min-width: 200px;
+    min-height: 25px;
+}
+#othername{
+    min-width: 200px;
+    min-height: 25px;
+}
+#firstname{
+    min-width: 200px;
+    min-height: 25px;
+}
+#submit{
+    min-width: 30px;
+    min-height: 25px; 
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+footer{
+    background-color: black;
+    color: white;    
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+footer a:hover {
+    text-decoration-line: underline;
+    color: blue;
+}
+.footer-section{
+    display: flex;
+    flex-flow: row wrap wrap;
+}
+.footer-section div{  
+margin: 0px auto;
+}

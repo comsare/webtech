@@ -1,0 +1,246 @@
+
+.clear{
+    clear: both;
+}
+.header p{
+    padding: 0 0 10px 0;
+    font-size: 16px;
+}
+/*Title of business*/
+.header h1{
+    background-color: #306797;
+    max-width: 84%;
+    min-height: 250px;
+    margin-left: 8%;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 20px;
+    color: white;
+ 
+
+}
+.header{
+    width: 90%;
+    margin: 3% auto;
+}
+
+.nav-bk{
+    background-color:#183650;
+    background-image: url('../imgs/2.0.png');
+    width: 100%;
+    height: 300px;
+}
+
+/* span info*/
+.span-list{
+    background-color: #183650;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.span-list span{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.bottom-image-color{
+    background-color: #183650;
+    height: 80px;
+}
+.bottom-image-color h1{
+    color: #fff;
+    font-size: 40px;
+    padding: 0px 0 0 20px;
+    margin: 0;
+}
+/*Product Menu*/
+/* Nav Bar*/
+.clear{
+    clear: both;
+}
+ul li img #nav1-logo{
+    min-width: 20px;
+    max-height: 20px;
+}
+#home{
+    border-bottom: 5px solid #fff;
+}
+ul.nav1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    margin-right: 5%;
+}
+ul.nav1 li ul{
+    list-style-type: none;
+}
+ul.nav1 li{
+    float: right;
+}
+ul.nav1 li a{
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding: 30px 10px 10px 10px; 
+    font-size: 20px;
+}
+ul.nav1 li a:hover{
+    color: #000;
+    border-bottom: 4px solid #fff;
+}
+ul.nav1 ul li a:hover{
+    color: #fff;
+    border-bottom: 4px solid #fff;
+}
+ul.nav1 li ul li {
+    float: none;
+}
+ul.nav1 li ul{
+    position: absolute;
+    display: none;
+    background-color: #326ea3;
+    opacity: 0.7;
+    color: #fff;
+}
+ul.nav1 li:hover ul{
+    display: block;
+}
+ul.nav1 li ul a{
+    border: none;
+}
+
+.footer{
+    background-color: #183650;
+}
+.footer-container div,.copy{
+    margin-left: 40px;
+}
+hr{
+    width: 90%;
+}
+.footer-container div{
+    padding: 5px;
+}
+
+.about-sec ul li{
+    list-style: circle;
+}
+.container-c{
+    margin: 3% auto;
+    width: 90% ;
+}
+.about-sec h3{
+    font-size: 40px;
+    font-weight: 1px;
+    padding: 20px 0;
+}
+.value-right{
+    margin-right: 0%;
+    padding-right: 400px;
+
+}
+footer{
+    max-width: 100%;
+    color: white;    
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width:400px) {
+
+    div.about-us div, #copyright{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    #copyright{
+        margin-top: 30px;
+    }
+    /* head center*/
+    .header h1{
+        width: 90%;
+        margin: 3% auto;
+        padding: 50px 0;
+    }
+    /* head info*/
+.span-list{
+    background-color: #183650;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.span-list span{
+    padding: 5px;
+    font-size: 15px;
+}
+}
+@media screen and (min-width:620px) {
+
+        /* head center*/
+        .header h1{
+            width: 90%;
+            margin: 3% auto;
+            padding: 90px 0 0 0;
+        }
+    .flex-container1 div, .flex-container2 div{
+        padding: 0px;
+        border: 1px solid black;
+    }
+    .flex-container1{
+        display: flex;
+        align-content: flex-end;
+        flex-flow: row wrap wrap;
+    }
+    .flex-container2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .flex-images img{
+        width: 150px;
+        height: inherit;
+    }
+    .value-left{
+        float: left;
+        width: 0%;
+    }
+    .value-left div{
+        width: 30%;
+    }
+    .value-right{
+        float: right;
+        margin-right: 300px;
+    }
+    
+div.about-us{
+    display: flex;
+    flex-flow: row wrap wrap;
+    overflow: inherit;
+}
+div.about-us div{
+    max-width: 30%;
+    margin: 0 auto;
+}
+#copyright{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.footer-container{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+}
+.box1{
+    width: 250px;
+    
+}
+.copy{
+    padding: 30px;
+    margin-left: 30px;
+}
+}

@@ -1,0 +1,363 @@
+.clear{
+    clear: both;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*
+.nav-bk{
+    background-color:#183650;
+    background-image: url('../img/general/room/1.jpg');
+    width: 100%;
+
+}*/
+.span-list{
+    background-color: #183650;
+    height: 60px;
+    color: #fff;
+    padding-left: 50px;
+}
+/*Product Menu*/
+/* Nav Bar*/
+ul li img #nav1-logo{
+    min-width: 20px;
+    max-height: 20px;
+}
+#home{
+    border-bottom: 5px solid #63a1d8;
+}
+ul.nav1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    margin-right: 5%;
+}
+ul.nav1 li ul{
+    list-style-type: none;
+}
+ul.nav1 li{
+    float: right;
+}
+ul.nav1 li a{
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding: 30px 10px 10px 10px; 
+    font-size: 20px;
+}
+ul.nav1 li a:hover{
+    color: #000;
+    border-bottom: 4px solid #fff;
+}
+ul.nav1 ul li a:hover{
+    color: #fff;
+    border-bottom: 4px solid #fff;
+}
+ul.nav1 li ul li {
+    float: none;
+}
+ul.nav1 li ul{
+    position: absolute;
+    display: none;
+    background-color: #326ea3;
+    opacity: 0.7;
+    color: #fff;
+}
+ul.nav1 li:hover ul{
+    display: block;
+}
+ul.nav1 li ul a{
+    border: none;
+
+}
+.vid video {
+    width: 1349px;
+    height: 100%;
+    }
+
+/*company logo on nav bar*/
+.nav-logo img{
+    max-width: 30px;
+    max-height: 45px;
+}
+
+/*Title of Business*/
+.title-container{
+    display: flex;
+    width: 90%;
+    margin: 40px auto;
+
+}
+.title-content{
+    width: 65%;
+    height: 400px;
+
+}
+.title-content h1{
+    padding: 30px 0;
+    font-size: 45px;
+
+}
+.title-content p{
+    padding:  0;
+    font-size: 20px;
+
+}
+.title-img{
+    width: 45%;
+    background-image: url('../imgs/4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 0 0 10px;
+}
+
+/*passion*/
+.passion{
+    background-image: url('../imgs/2.0.png');
+    background-repeat: no-repeat;
+    height: 320px;
+    padding-left: 50px;
+}
+.passion h1{
+    margin-top: 0;
+    padding: 50px 0 0 0;
+    color: #fff;
+    font-size: 35px;
+}
+.passion p,a{
+    color: #fff;
+    width: 50%;
+    font-size: 17px;
+}
+#ct{
+    margin-top: 60px;
+}
+.passion a{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-color: #fff;
+    color: blue;
+    font-size: 25px;
+    padding: 10px 30px;
+}
+/*flex 4*/
+.flex4{
+    display: flex;
+}
+.f-box{
+    padding: 0 10px;
+    text-align: center;
+}
+.f-box h2{
+    padding-bottom: 50px;
+}
+.f-box p{
+    font-size:18px;
+}
+.f-box1{
+    background-color: rgb(86, 191, 226);
+    padding: 50px;
+}
+.f-box2{
+    background-color: lightsteelblue;
+    padding: 50px;
+}
+.f-box3{
+    background-color: lightblue;
+    padding: 50px;
+}
+.f-box4{
+    background-color: lightskyblue;
+    padding: 50px;
+}
+/*floating items styles*/
+.float-items{
+    background-color: #3d8fd6;
+    padding: 50px 50px;
+}
+.float-items{
+    padding-bottom: 110px;
+}
+.float-items .left{
+    float: left;
+}
+.float-items .right{
+    float: right;
+}
+.float-items .left p{
+    font-size: 25px;
+    color: #fff;
+}
+.float-items .right p{
+    border: 5px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 30px;
+}
+.grp-5{
+    text-align: center;
+}
+.grp-5 p{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 30px;
+    background-color: #3d8fd6;
+    width: auto;
+}
+/*footer styles*/
+.footer{
+    background-color: #183650;
+    max-width: 100%;
+    color: white;    
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer-container div,.copy{
+    margin-left: 40px;
+}
+hr{
+    width: 90%;
+}
+.footer-container div{
+    padding: 5px;
+}
+.about-sec ul li{
+    list-style: circle;
+}
+.container-c{
+    margin: 3% auto;
+    width: 90% ;
+}
+.about-sec h3{
+    font-size: 40px;
+    font-weight: 1px;
+    padding: 20px 0;
+}
+.value-right{
+    margin-right: 0%;
+    padding-right: 400px;
+
+}
+.box4 img{
+    padding-right: 10px;
+}
+@media screen and (min-width:400px) {
+
+    div.about-us div, #copyright{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    #copyright{
+        margin-top: 30px;
+    }
+
+    
+}
+@media screen and (min-width:620px) {
+    /*contact hours*/
+.contact-list{
+    background-color: #326ea3;
+}
+.contact-list span{
+    color: #fff;
+    font-size: 20px;
+}
+.contact-list span img{
+    padding-top: 100px;
+}
+    /*our services*/
+/*our services*/
+.services{
+    background-color: #183650;
+    height: 550px;
+    display: flex;
+}
+.s-box{
+    margin: 50px 12px 50px 12px ;
+}
+.s-box1{
+    background-color: #fff;
+}
+.s-box h3{
+    padding: 10px 0px 15px 0px ;
+    text-align: center;
+}
+
+.s-box img{
+    width: 300px;
+}
+.services h3,.services p{
+    color: #000;
+}
+.ss-box >h2,.ss-box p{
+    color: #fff;
+}
+.container{
+    width: 80%;
+    margin-top: 50px;
+}
+.container>p,.container h2  {
+text-align: center;
+}
+    .flex-container1 div, .flex-container2 div{
+        padding: 0px;
+        border: 1px solid black;
+    }
+    .flex-container1{
+        display: flex;
+        align-content: flex-end;
+        flex-flow: row wrap wrap;
+    }
+    .flex-container2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .flex-images img{
+        width: 150px;
+        height: inherit;
+    }
+    .value-left{
+        float: left;
+        width: 0%;
+    }
+    .value-left div{
+        width: 30%;
+    }
+    .value-right{
+        float: right;
+        margin-right: 300px;
+    }
+    
+div.about-us{
+    display: flex;
+    flex-flow: row wrap wrap;
+    overflow: inherit;
+}
+div.about-us div{
+    max-width: 30%;
+    margin: 0 auto;
+}
+#copyright{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.footer-container{
+    display: flex;
+    margin: 0px;
+    justify-content: space-around;
+}
+.box1{
+    width: 250px;
+    
+}
+.copy{
+    padding: 30px;
+    margin-left: 30px;
+}
+
+}

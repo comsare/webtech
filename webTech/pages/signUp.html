@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" href="css/bootstrap.min.css">
+    <link rel = "JavaScript" href="js/bootstrap.js">
+    <link rel="stylesheet" href="../css/mySignUp.css">
+    <title>forms</title>
+</head>
+    <body>
+        <!--Navigation menu-->
+        <ul class="nav1">
+          <li>
+              <a href="../index.html">Home</a>
+          </li>
+            <li>
+              <a href="mailto:ebenezercomsare@gmail.com">News</a>
+              <ul>
+                <li><a href="mailto:ebenezercomsare@gmail.com">News</a></li>
+                <li><a href="mailto:ebenezercomsare@gmail.com">Device</a></li>
+              </ul>
+            </li>
+            <li>
+                <a href="about_Us.html">Contact</a>
+                <ul>
+                    <li><a href="#">WhatsApp</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">youTube</a></li>
+                    <li><a href="#">twitter</a></li>
+                </ul>
+            </li>
+            <li class="space"> 
+                <a href="about_Us.html"> About US</a>
+                <ul>
+                    <li><a href="mailto:ebenezercomsare@gmail.com">Developer</a></li>
+                    <li><a href="mailto:ebenezercomsare@gmail.com">email</a></li>
+                    <li><a href="mailto:ebenezercomsare@gmail.com">website</a></li>
+                </ul>
+            </li>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a id="homepage" href="signUp.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            </ul>
+        </ul>
+        <div class="clear"></div>
+        
+        <!--Sign Up form-->
+        <div class="form-container">
+            <form class="signUp" action="/site/successSignUp.html" method="GET">
+                <img src="../img/logo/logo png.png" width="100px" height="80px" alt="logo">
+                <legend>Sign Up</legend>
+                <p>Please fill in this form to create an account!</p>
+                
+                <input type="text" name ="surname" id = "surname" required autofocus placeholder="enter surname" pattern="[a-zA-Z]{3,}" title="Please enter a valid name">
+                <br><br>
+                <input type="text" name ="firstname" id = "firstname" required autofocus placeholder="enter first name" pattern="[a-zA-Z]{3,}" title="Please enter a valid name">
+                <br><br>
+                <input type="text" name ="othername" id = "othername" autofocus placeholder="other names" pattern="[a-zA-Z]{2,}" title="Please enter a valid name">
+                <br><br>
+                <span>Sex: </span>
+                <label for="male"> Male</label><input type="radio" name ="malefemale" id = "male" value="male" required >
+                <label for="female"> Female</label><input type="radio" name ="malefemale" id = "female" value="female" required >
+                <br><br>
+                <input type="date" name ="DOB" id = "DOB" value="date" required >
+                <br><br>
+                <Address>
+                    <input type="tel" name ="phone" id = "tel" required autofocus placeholder="Phone Number" pattern="[0-9]{10}" title="Invalid number.e.g. 0294823148">
+                    <br><br>
+                    <input type="text" name ="email" id = "email" required autofocus placeholder="Email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="Please enter a valid email.e.g example@gmail.com">
+                    <br><br>
+                </Address>
+                <section >
+                    <input type="text" id="password" name="password" placeholder="Password">
+                    <br><br>
+                    <input type="text" id="confirm-password" name="confirm-password" placeholder="Confirm Password" >
+                    <br><br>
+                </section>
+                <div>
+                    <input type="checkbox"><label id="rember" for="checkbox" > I accept the <a href="#">terms & Conditions</a></label><br>
+                    <input id="submit" type="submit" value="Sign Up">              
+                </div>           
+            </form>
+            <br>
+            <p class="have-account">Already have an account? <a href="login.html"> Login here</a> </p>
+        </div>    
+        <footer >
+            <section class="footer-section" id="footer-section">
+                <div class="about-section">
+                    <h2><centre>About Us Page</centre></h2>  
+                    <!-- Add social media handles icons -->
+                    <a href="https://www.ebenezezercomsare@gmail.com" class="fa fa-facebook">Facebook</a>
+                    <a href="https://www.ebenezezercomsare@gmail.com" class="fa fa-google">Google</a>
+                </div>
+                <div>
+                    <h2>Contact</h2>
+                    <p>Whatsapp: 0542428627</p>
+                    <p>Hotline: 0542428627/0200038866</p>
+                </div>
+            </section>
+                <p>Copyright © ebenezezercomsare@gmail.com</p>
+        </footer>
+    </body>
+</html>
